@@ -1,0 +1,70 @@
+_dataset:
+  class: MartinezCagigal2023Pary
+  code: MartinezCagigal2023Parycvep
+  doi: https://doi.org/10.71569/025s-eq10
+  interval: !!python/tuple
+  - 0
+  - 1
+  n_subjects: 16
+  paradigm: cvep
+acquisition:
+  channel_types:
+    eeg: 16
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 16
+  sampling_rate: 256.0
+documentation:
+  acknowledgements: This study was partially funded by Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación
+    and ERDF, and CIBER-BBN through Instituto de Salud Carlos III.
+  associated_paper_doi: 10.1016/j.eswa.2023.120815
+  contact_info:
+  - victor.martinez@gib.tel.uva.es
+  country: ES
+  data_url: https://doi.org/10.71569/025s-eq10
+  doi: 10.71569/025s-eq10
+  ethics_approval:
+  - Approved by the local ethics committee; all participants provided informed consent
+  funding:
+  - Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación and ERDF (TED2021-129915B-I00, RTC2019-007350-1, PID2020-115468RB-I00)
+  - CIBER-BBN through Instituto de Salud Carlos III
+  how_to_acknowledge: 'Please cite: Martínez-Cagigal et al. (2023). Non-binary m-sequences for more comfortable brain-computer
+    interfaces based on c-VEPs. Expert Systems With Applications, 232, 120815. https://doi.org/10.1016/j.eswa.2023.120815'
+  institution: University of Valladolid
+  institution_address: Paseo de Belén, 15, 47011, Valladolid, Spain
+  institution_department: Biomedical Engineering Group, ETSIT
+  investigators:
+  - Víctor Martínez-Cagigal
+  - Eduardo Santamaría-Vázquez
+  - Sergio Pérez-Velasco
+  - Diego Marcos-Martínez
+  - Selene Moreno-Calderón
+  - Roberto Hornero
+  license: CC-BY-NC-SA-4.0
+  publication_year: 2023
+  related_paper_dois:
+  - 10.1088/1741-2552/ac38cf
+  - 10.1016/j.cmpb.2023.107357
+  repository: U Valladoid
+  senior_author: Roberto Hornero
+experiment:
+  class_labels:
+  - '0.0'
+  - '1.0'
+  - '2.0'
+  - '3.0'
+  - '4.0'
+  - '5.0'
+  - '6.0'
+  - '7.0'
+  - '8.0'
+  - '9.0'
+  - '10.0'
+  n_classes: 11
+  paradigm: cvep
+participants:
+  health_status: healthy
+  n_subjects: 16
+  species: homo sapiens
+runs_per_session: 8
+sessions_per_subject: 5

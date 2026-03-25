@@ -1,0 +1,43 @@
+{
+	"Name": "P-ary m-sequence-based c-VEP dataset from Mart\u00ednez-Cagigal et al. (2023)",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-NC-SA-4.0",
+	"Authors": [
+		"V\u00edctor Mart\u00ednez-Cagigal",
+		"Eduardo Santamar\u00eda-V\u00e1zquez",
+		"Sergio P\u00e9rez-Velasco",
+		"Diego Marcos-Mart\u00ednez",
+		"Selene Moreno-Calder\u00f3n",
+		"Roberto Hornero"
+	],
+	"Acknowledgements": "This study was partially funded by Ministerio de Ciencia e Innovaci\u00f3n/Agencia Estatal de Investigaci\u00f3n and ERDF, and CIBER-BBN through Instituto de Salud Carlos III.",
+	"HowToAcknowledge": "Please cite: Mart\u00ednez-Cagigal et al. (2023). Non-binary m-sequences for more comfortable brain-computer interfaces based on c-VEPs. Expert Systems With Applications, 232, 120815. https://doi.org/10.1016/j.eswa.2023.120815",
+	"Funding": [
+		"Ministerio de Ciencia e Innovaci\u00f3n/Agencia Estatal de Investigaci\u00f3n and ERDF (TED2021-129915B-I00, RTC2019-007350-1, PID2020-115468RB-I00)",
+		"CIBER-BBN through Instituto de Salud Carlos III"
+	],
+	"EthicsApprovals": [
+		"Approved by the local ethics committee; all participants provided informed consent"
+	],
+	"ReferencesAndLinks": [
+		"https://doi.org/10.71569/025s-eq10",
+		"10.1016/j.eswa.2023.120815"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "https://doi.org/10.71569/025s-eq10",
+			"URL": "https://doi.org/10.71569/025s-eq10"
+		}
+	],
+	"PublicationYear": 2023
+}
