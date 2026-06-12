@@ -1,0 +1,155 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Víctor Martínez-Cagigal": {
+      "orcid": "0000-0002-3822-1787",
+      "affiliations": [
+        {
+          "name": "Universidad de Valladolid",
+          "identifier": "https://ror.org/01fvbaw18",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Eduardo Santamaría-Vázquez": {
+      "orcid": "0000-0002-7688-4258"
+    },
+    "Sergio Pérez-Velasco": {
+      "orcid": "0000-0002-2999-3216"
+    },
+    "Diego Marcos-Martínez": {
+      "orcid": "0000-0002-7493-5242"
+    },
+    "Selene Moreno-Calderón": {
+      "orcid": "0000-0001-8605-6336"
+    },
+    "Roberto Hornero": {
+      "orcid": "0000-0001-9915-2570"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.71569/025s-eq10",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.eswa.2023.120815",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000239",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000239",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/ac38cf",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1016/j.cmpb.2023.107357",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.35376/10324/70945",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "CIBER-BBN through Instituto de Salud Carlos III"
+    },
+    {
+      "funder_name": "Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación",
+      "award_number": "TED2021-129915B-I00"
+    },
+    {
+      "funder_name": "Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación",
+      "award_number": "RTC2019-007350-1"
+    },
+    {
+      "funder_name": "Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación",
+      "award_number": "PID2020-115468RB-I00"
+    }
+  ],
+  "title": "P-ary m-sequence-based c-VEP dataset from Martínez-Cagigal et al. (2023)",
+  "license": "CC-BY-NC-SA-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "801.3 MB (641 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 16 healthy participants performing a code-modulated visual evoked potential (c-VEP) brain-computer interface task using p-ary m-sequences. The study investigates non-binary m-sequence stimulation patterns to enhance user comfort in c-VEP-based BCIs. Data were collected across 5 sessions per subject with 8 runs per session, sampled at 256 Hz from 16 EEG channels, and include 11 stimulus classes with visual presentation events. This is a derivative dataset where each condition from the original single-session recording is stored as a separate session to match the MOABB structure.",
+  "methods_description": "EEG data were acquired at 256 Hz sampling rate from 16 channels using a standard 1005 montage with 50 Hz line frequency. Participants completed 5 sessions, each containing 8 runs (6 training, 2 testing). The experimental paradigm involved visual presentation of p-ary m-sequence stimuli with 11 distinct classes, with trial intervals of 0-1 second. Although the original dataset was recorded in a single session, each condition is stored as a separate session in this derivative to match the MOABB structure.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "code-modulated visual evoked potentials"
+    },
+    {
+      "term": "c-VEP"
+    },
+    {
+      "term": "m-sequences"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "p-ary m-sequences"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "neuroscience"
+    },
+    {
+      "term": "visual evoked potentials"
+    },
+    {
+      "term": "MOABB"
+    },
+    {
+      "term": "derivative"
+    }
+  ],
+  "source_hash": "10c83e72e5a92e6a3bbe34760b94877c092b6e9c477471958ad6ddb1af1364d9"
+}
