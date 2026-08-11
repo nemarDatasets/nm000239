@@ -1,0 +1,35 @@
+{
+ "dataset": "nm000239",
+ "moabb_class": "MartinezCagigal2023Pary",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.MartinezCagigal2023Pary.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-martinezcagigal2023parycvep-data/bitstream/handle/10324/70945",
+ "license": "CC-BY-NC-SA-4.0",
+ "doi": "https://doi.org/10.71569/025s-eq10",
+ "naming": "upstream_filenames_restored",
+ "n_files": 4,
+ "total_bytes": 245536260,
+ "files": [
+  {
+   "file": "bvgy.zip",
+   "bytes": 64454663,
+   "sha256": "a3e503e60a966a2aace077a14cee68e46b451bba0b9c6ef4831f08ee8aa7805e"
+  },
+  {
+   "file": "fjax.zip",
+   "bytes": 61772884,
+   "sha256": "4cc3af96374b24487d96305083c037bee8d977e3596889f2ec645c05d82f608d"
+  },
+  {
+   "file": "pqgs.zip",
+   "bytes": 59723409,
+   "sha256": "6ac978fba066a2d7fffd12efcffb6855da77da3ba8ba1a3d3d171b2655683983"
+  },
+  {
+   "file": "sbbh.zip",
+   "bytes": 59585304,
+   "sha256": "85ba6695bdd23d666caaab781dd20e8868100cbb7cb382959331067ae83516c4"
+  }
+ ]
+}
