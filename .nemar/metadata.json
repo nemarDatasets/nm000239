@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "P-ary m-sequence-based c-VEP dataset from Martínez-Cagigal et al. (2023)",
+  "description": "A code-modulated visual evoked potential (c-VEP) dataset comprising EEG recordings from 16 healthy subjects performing an 11-class brain-computer interface task using p-ary m-sequences. The dataset includes 5 sessions per subject with 8 runs each, recorded at 256 Hz from 16 channels, designed to evaluate the efficacy of non-binary m-sequence stimulation for improving user comfort in c-VEP-based BCIs.",
+  "methods_description": "EEG data were acquired at a sampling rate of 256 Hz using 16 channels arranged according to the standard 1005 montage. The experimental paradigm employed code-modulated visual evoked potentials with 11 stimulus classes (0-10) based on p-ary m-sequences. Each session contained 8 runs (6 training, 2 testing) with a trial interval of 0-1 second. Line frequency was 50 Hz.",
+  "license": "CC-BY-NC-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Víctor Martínez-Cagigal": {
       "orcid": "0000-0002-3822-1787",
@@ -28,6 +33,41 @@
       "orcid": "0000-0001-9915-2570"
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "code-modulated visual evoked potentials"
+    },
+    {
+      "term": "m-sequences"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "BCI paradigm"
+    },
+    {
+      "term": "p-ary m-sequences"
+    },
+    {
+      "term": "non-binary stimulation"
+    },
+    {
+      "term": "healthy subjects"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "HED annotations"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.71569/025s-eq10",
@@ -41,11 +81,6 @@
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000239",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000239",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -73,6 +108,11 @@
       "identifier": "10.35376/10324/70945",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000239",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -92,16 +132,13 @@
       "award_number": "PID2020-115468RB-I00"
     }
   ],
-  "title": "P-ary m-sequence-based c-VEP dataset from Martínez-Cagigal et al. (2023)",
-  "license": "CC-BY-NC-SA-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "801.3 MB (641 files)"
+    "1.0 GB (645 files)"
   ],
   "formats": [
     ".bdf",
@@ -109,47 +146,8 @@
     ".md",
     ".tsv",
     ".yaml",
-    ".yml"
+    ".yml",
+    ".zip"
   ],
-  "description": "This dataset comprises EEG recordings from 16 healthy participants performing a code-modulated visual evoked potential (c-VEP) brain-computer interface task using p-ary m-sequences. The study investigates non-binary m-sequence stimulation patterns to enhance user comfort in c-VEP-based BCIs. Data were collected across 5 sessions per subject with 8 runs per session, sampled at 256 Hz from 16 EEG channels, and include 11 stimulus classes with visual presentation events. This is a derivative dataset where each condition from the original single-session recording is stored as a separate session to match the MOABB structure.",
-  "methods_description": "EEG data were acquired at 256 Hz sampling rate from 16 channels using a standard 1005 montage with 50 Hz line frequency. Participants completed 5 sessions, each containing 8 runs (6 training, 2 testing). The experimental paradigm involved visual presentation of p-ary m-sequence stimuli with 11 distinct classes, with trial intervals of 0-1 second. Although the original dataset was recorded in a single session, each condition is stored as a separate session in this derivative to match the MOABB structure.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "code-modulated visual evoked potentials"
-    },
-    {
-      "term": "c-VEP"
-    },
-    {
-      "term": "m-sequences"
-    },
-    {
-      "term": "visual stimulation"
-    },
-    {
-      "term": "p-ary m-sequences"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "neuroscience"
-    },
-    {
-      "term": "visual evoked potentials"
-    },
-    {
-      "term": "MOABB"
-    },
-    {
-      "term": "derivative"
-    }
-  ],
-  "source_hash": "10c83e72e5a92e6a3bbe34760b94877c092b6e9c477471958ad6ddb1af1364d9"
+  "source_hash": "a9bbd1c900bf8f3df44d8c69d25a32c6419e7607624cc55158c8146da4074923"
 }
