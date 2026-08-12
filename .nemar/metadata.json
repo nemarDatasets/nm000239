@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P-ary m-sequence-based c-VEP dataset from Martínez-Cagigal et al. (2023)",
-  "description": "A code-modulated visual evoked potential (c-VEP) dataset comprising EEG recordings from 16 healthy subjects performing an 11-class brain-computer interface task using p-ary m-sequences. The dataset includes 5 sessions per subject with 8 runs each, recorded at 256 Hz from 16 channels, designed to evaluate the efficacy of non-binary m-sequence stimulation for improving user comfort in c-VEP-based BCIs.",
-  "methods_description": "EEG data were acquired at a sampling rate of 256 Hz using 16 channels arranged according to the standard 1005 montage. The experimental paradigm employed code-modulated visual evoked potentials with 11 stimulus classes (0-10) based on p-ary m-sequences. Each session contained 8 runs (6 training, 2 testing) with a trial interval of 0-1 second. Line frequency was 50 Hz.",
+  "description": "A code-modulated visual evoked potential (c-VEP) brain-computer interface dataset employing p-ary m-sequences to enhance user comfort. The dataset comprises EEG recordings from 16 healthy subjects across 5 sessions with 8 runs per session, using an 11-class visual stimulus paradigm. This derivative dataset supports research into non-binary sequence designs for improving BCI usability and performance.",
+  "methods_description": "EEG data were acquired at 256 Hz sampling rate using 16 channels in a standard 1005 montage with 50 Hz line frequency. Participants performed a c-VEP task with 11 visual stimulus classes presented in a trial interval of 0-1 seconds. Each session contained 8 runs (6 training, 2 testing) with visual stimuli annotated using HED 8.4.0 schema.",
   "license": "CC-BY-NC-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,31 +41,31 @@
       "term": "brain-computer interfaces"
     },
     {
-      "term": "code-modulated visual evoked potentials"
+      "term": "visual evoked potentials"
+    },
+    {
+      "term": "code-modulated VEP"
     },
     {
       "term": "m-sequences"
     },
     {
-      "term": "visual stimulation"
+      "term": "p-ary sequences"
     },
     {
-      "term": "BCI paradigm"
+      "term": "non-binary sequences"
     },
     {
-      "term": "p-ary m-sequences"
+      "term": "visual stimulus"
     },
     {
-      "term": "non-binary stimulation"
+      "term": "BIDS-compliant"
     },
     {
-      "term": "healthy subjects"
+      "term": "HED-annotated"
     },
     {
-      "term": "BIDS"
-    },
-    {
-      "term": "HED annotations"
+      "term": "healthy controls"
     }
   ],
   "related_identifiers": [
@@ -130,6 +130,9 @@
     {
       "funder_name": "Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación",
       "award_number": "PID2020-115468RB-I00"
+    },
+    {
+      "funder_name": "CIBER-BBN"
     }
   ],
   "resource_type_general": "Dataset",
@@ -138,7 +141,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.0 GB (645 files)"
+    "1.8 GB (657 files)"
   ],
   "formats": [
     ".bdf",
@@ -149,5 +152,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "a9bbd1c900bf8f3df44d8c69d25a32c6419e7607624cc55158c8146da4074923"
+  "source_hash": "0c3e87c915f82e2a2244f0c9e61b97042a4b3708f682fb3ca95834cef51a97e0"
 }
