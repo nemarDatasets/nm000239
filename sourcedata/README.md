@@ -8,8 +8,8 @@ URL remaining reachable.
 |---|---|
 | MOABB class | `moabb.datasets.MartinezCagigal2023Pary` (moabb 1.5.0) |
 | Retrieved | 2026-08-11 |
-| Files | 4 |
-| Total size | 245.5 MB |
+| Files | 16 |
+| Total size | 1016.4 MB |
 | License | CC-BY-NC-SA-4.0 |
 | Upstream DOI | https://doi.org/10.71569/025s-eq10 |
 
