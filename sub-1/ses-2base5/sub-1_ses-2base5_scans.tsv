@@ -1,9 +1,9 @@
 ﻿filename	acq_time
-eeg/sub-1_ses-2base5_task-cvep_run-1_recording-train_eeg.bdf	2022-09-22T13:19:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-2_recording-train_eeg.bdf	2022-09-22T13:10:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-3_recording-train_eeg.bdf	2022-09-22T13:12:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-4_recording-train_eeg.bdf	2022-09-22T13:15:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-5_recording-train_eeg.bdf	2022-09-22T13:14:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-6_recording-train_eeg.bdf	2022-09-22T13:17:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-7_recording-test_eeg.bdf	2022-09-22T13:30:00.000000Z
-eeg/sub-1_ses-2base5_task-cvep_run-8_recording-test_eeg.bdf	2022-09-22T13:24:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-1_eeg.bdf	2022-09-22T13:19:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-2_eeg.bdf	2022-09-22T13:10:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-3_eeg.bdf	2022-09-22T13:12:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-4_eeg.bdf	2022-09-22T13:15:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-5_eeg.bdf	2022-09-22T13:14:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-train_run-6_eeg.bdf	2022-09-22T13:17:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-test_run-7_eeg.bdf	2022-09-22T13:30:00.000000Z
+eeg/sub-1_ses-2base5_task-cvep_acq-test_run-8_eeg.bdf	2022-09-22T13:24:00.000000Z
