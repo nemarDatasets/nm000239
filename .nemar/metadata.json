@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "P-ary m-sequence-based c-VEP dataset from Martínez-Cagigal et al. (2023)",
-  "description": "EEG dataset of code-modulated visual evoked potentials (c-VEP) brain-computer interface recordings using non-binary (p-ary) m-sequences. Sixteen healthy participants were recorded with 16 EEG channels at 256 Hz. Each participant completed five conditions, each with eight runs (six for training, two for testing), and the stimulus classes are labeled with 11 event codes. The dataset supports research on more comfortable c-VEP-based BCI stimulation.",
-  "methods_description": "EEG was recorded from 16 channels at 256 Hz (standard_1005 montage, 50 Hz line frequency). Each of five conditions was stored as a separate session to match the MOABB structure, with eight runs per session (six for training and two for testing). Visual stimuli were presented using p-ary m-sequences.",
+  "description": "EEG recordings from 16 healthy participants using a code-modulated visual evoked potential (c-VEP) brain-computer interface based on p-ary (non-binary) m-sequences. Sixteen EEG channels were sampled at 256 Hz across five conditions (stored as sessions), each with eight runs (six for training, two for testing). The dataset supports research on more comfortable c-VEP BCI stimulation and is distributed in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded from 16 channels at 256 Hz (standard_1005 montage, 50 Hz line frequency). Each participant completed five conditions, stored as separate sessions, with eight runs per session (six training, two test). Visual stimuli were presented with intensity levels derived from p-ary m-sequences, giving 11 event labels.",
   "license": "CC-BY-NC-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,18 +41,17 @@
       "term": "c-VEP"
     },
     {
-      "term": "code-modulated visual evoked potentials"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "m-sequences"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "Evoked Potentials, Visual",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
+      "term": "m-sequence"
     }
   ],
   "related_identifiers": [
@@ -117,6 +116,9 @@
     {
       "funder_name": "Ministerio de Ciencia e Innovación/Agencia Estatal de Investigación and ERDF",
       "award_number": "PID2020-115468RB-I00"
+    },
+    {
+      "funder_name": "CIBER-BBN, Instituto de Salud Carlos III"
     }
   ],
   "resource_type_general": "Dataset",
@@ -136,5 +138,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "d6d1db475cb596134754601c3282f28337c41c4999918cedbdcdf83459e00c67"
+  "source_hash": "b8156c4d48c814b49adda936f54af0bbe414a78314e99867770ad56af9f7609a"
 }
